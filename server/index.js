@@ -11,6 +11,7 @@ db.on("error", console.error.bind(console, "connection error:"));
 db.once("open", function () {
   console.log("we're connected!");
 });
+
 // use body parser as middleware.
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
