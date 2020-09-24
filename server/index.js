@@ -54,7 +54,6 @@ app.post("/users/profile",(req, res) => {
   })
 })
 
-
 app.post("/user/info",(req,res) => { 
   User.find({}).then((user) =>{
     const dataInfo = user.data;
