@@ -1,0 +1,206 @@
+*,html,body{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color:#E5E7E9;
+}
+.navbar{
+    background-attachment: fixed;
+    background-color: black;
+    padding: 1px;
+    position: relative;
+
+}
+.btnP:hover{
+    background-color:#A6ACAF;
+}
+.btn{
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    padding: 0.7%;
+    margin-left: 3%;
+    position: relative;
+    left: 500px;
+    font-size: 20px;
+    top:1px;
+    cursor: pointer;
+    display: inline;
+    text-decoration-line: none;
+}
+.logo {
+    height: 45px;
+    position: relative;
+    left: -1200px;
+    top: -4px;
+    display: inline;
+}
+.logoS{
+    color: white;
+    position: relative;
+    left: -1400px;
+    top: -5px;
+    display: inline;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    transition:0.5s;
+}
+.nav-link{
+    text-decoration-line: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-link:hover{
+    color: #BFC9CA;
+}
+.signinS{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.loginp{
+    padding:7px;
+}
+#btnS{
+    border-color: transparent;
+    background-color:#CACFD2;
+    cursor: pointer;
+    position: absolute;
+    top: 483px;
+    left: 810px;
+    transition:0.8s
+}
+#btnS:hover{
+    background-color:#A6ACAF;
+}
+.posts{
+top:22px;
+height: 190px;;
+padding:30px;
+position: absolute;
+left: 517px;
+background-color: white;
+text-align: center;
+font-family: 'Ubuntu', sans-serif;
+border-radius: 8px;
+}
+.status{
+    padding:30px;
+    width:420px;
+}
+.btnP{
+    position: absolute ;
+    top: 120px;
+    left: 29px;
+    padding:6px;
+    background-color:#F8F9F9;
+    border-color: transparent;
+    cursor: pointer;
+    transition:0.8s;
+}
+#be{
+    padding:10px;
+}
+.blogsP{
+    position:absolute;
+    left: 500px;
+    top:230px;
+}
+.list{
+    margin:20px;
+    padding:30px;
+    background-color:white;
+    text-decoration: none;
+    border-radius: 3px;
+    border-color: black;
+    max-width: 500px;
+    text-align: center;
+    width: 478px;
+    height: 608px;
+}
+.profile{
+    background-color: white;
+    position: absolute;
+    height: 500px;
+    width:380px;
+    top:20px;
+    left:20px;
+    text-align: center;
+    border-radius: 7px;
+}
+.img{
+    height:180px;
+    top:57px;
+    position:absolute;
+    border-radius:100%;
+    left:100px;
+}
+.circle{
+  height: 180px;
+  width: 180px;
+  background-color: #EAEDED;
+  border-radius: 50%;
+  position: relative;
+  top:30px;
+  left: 100px;
+}
+.bttn{
+    background-color:transparent;
+    border-color:transparent;
+    position: relative;
+    top:30px;
+    cursor: pointer;
+}
+.UI{
+    position: relative;
+    top:45px;
+}
+.Pinfo{
+    position: relative;
+    top:50px;
+    left: -1px;;
+}
+.url{
+    padding:7px;
+    position: absolute;
+    top: 118px;
+    left: 112px;
+    width: 338px;
+}
+.login{
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top:150px;
+}
+#btnlog{
+    background-color: #CACFD2;
+    border-color: transparent;
+    position:absolute;
+    top: 194px;
+    left: 130px;
+    cursor: pointer;
+    transition:0.8s
+}
+#btnlog:hover{
+    background-color:#A6ACAF;
+}
+#FP{
+    position:absolute;
+    top: 445px;
+    left: 767px;
+}
+.smile{
+    position:relative;
+    top:500px;
+    left: -200px;
+}
+.Pimg{
+    height:400px;
+}

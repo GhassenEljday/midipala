@@ -15,4 +15,4 @@ this APP running in :
 
 to run this APP:
 ## npm start
-## npm run react-devyart.
+## npm run react-dev
